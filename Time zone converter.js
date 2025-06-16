@@ -8,7 +8,7 @@ const timeZones = { //list of time zones
 };
 
 let TZ = "GMT";   // here chose your time zone
-let Hour = 14; // here chose the hour
+let Hour = 14 ; // here chose the hour
 let result = (Hour + timeZones[TZ] + 24) % 24;
 
 console.log(result)
